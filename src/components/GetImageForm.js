@@ -35,7 +35,7 @@ class GetImageForm extends Component {
 
   handleSol(event){
     this.setState({
-      sol: event.target.valeu
+      sol: event.target.value
     })
     console.log("sol", this.state.sol);
   }
