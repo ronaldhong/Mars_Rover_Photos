@@ -75,19 +75,19 @@ class GetImageForm extends Component {
         <h1>Mars Rover Photo App</h1>
         <form style={form_styles} className="form-content">
           <label htmlFor="rover">Rover</label>
-          <select onChange={this.handleRover} id="rover" value={this.state.rover}>
+          <select onChange={this.handleRover} id="rover" value={this.state.value}>
             <option value="Curiosity">Curiosity</option>
             <option value="Opportunity">Opportunity</option>
             <option value="Spirit">Spirt</option>
           </select>
           <label htmlFor="camera">Camera Type</label>
-          <select onChange={this.handleCamera} id="rover" value={this.state.camera}>
+          <select onChange={this.handleCamera} id="rover" value={this.state.value}>
             <option value="fhaz">FHAZ (Front Hazard)</option>
             <option value="rhaz">RHAZ (Rear Hazard)</option>
             <option value="navcam">NAVCAM (Navigation Cam)</option>
           </select>
           <label htmlFor="sol">Martian Sol: 1000-2000</label>
-          <input type="number" onChange={this.handleSol} max="2000" min="1000" value={this.state.sol}/>
+          <input type="number" onChange={this.handleSol} max="2000" min="1000" value={this.state.value}/>
           <GetImageButton  onClick={this.fetchRoverImage} />
         </form>
         <h3 id="rover_name"style={rover_style}>{this.state.rover}</h3>
