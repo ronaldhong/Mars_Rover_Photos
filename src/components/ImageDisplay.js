@@ -8,14 +8,14 @@ class ImageDisplay extends Component {
       "textAlign": "center"
     }
     let image_style ={
-      "height": 600,
-      "width": 600
+      "height": 450,
+      "width": 450
     }
     return(
-      <div style={images_style}>
+      <div style={images_style} className="imgs_display">
        {this.props.images.map((image)=>{
          return(
-            <img style={image_style} src={image.img_src} key={image.id} alt={image}/>
+            <img className="img" style={image_style} src={image.img_src} key={image.id} alt={image}/>
          )
        })}
       </div>

@@ -64,15 +64,16 @@ class GetImageForm extends Component {
 
   render(){
     let form_styles={
-      "textAlign": "center",
-      "margin": 30,
+      "textAlign": "center"
     }
     let rover_style={
       "textAlign": "center"
     }
     return(
-      <div>
-        <form style={form_styles} className="form">
+      <div className="form">
+        <div className="background_img"></div>
+        <h1>Mars Rover Photo App</h1>
+        <form style={form_styles} className="form-content">
           <label htmlFor="rover">Rover</label>
           <select onChange={this.handleRover} id="rover" value={this.state.rover}>
             <option value="Curiosity">Curiosity</option>
@@ -89,8 +90,9 @@ class GetImageForm extends Component {
           <input type="number" onChange={this.handleSol} max="2000" min="1000" value={this.state.sol}/>
           <GetImageButton  onClick={this.fetchRoverImage} />
         </form>
-        <div style={rover_style}>{this.state.rover}</div>
+        <h3 id="rover_name"style={rover_style}>{this.state.rover}</h3>
         <ImageDisplay images={this.state.images} />
+        <footer>Designed by Ronald S. Hong</footer>
     </div>
     )
   }

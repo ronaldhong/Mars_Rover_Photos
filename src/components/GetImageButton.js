@@ -7,7 +7,6 @@ class GetImageButton extends Component {
       "background-color": "white",
     }
     let submit_div={
-      "margin": 15,
       "textAlign": "center"
     }
     return(
