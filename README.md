@@ -6,4 +6,4 @@ React application that uses NASA Mars Rover API and feature stateless and statef
 <br/>
 ---
 <br/>
-![](https://thumbs.gfycat.com/SoreCloseAmericancurl-size_restricted.gif)
+![](https://thumbs.gfycat.com/WeakActualBluebreastedkookaburra-size_restricted.gif)
