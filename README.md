@@ -6,4 +6,4 @@ React application that uses NASA Mars Rover API and feature stateless and statef
 ---
 ## ScreenShot
 ---
-![ScreenShot](https://github.com/ronaldhong/Mars_Rover_Photos_daily_proj/blob/master/image/MarsRover.png)
+![ScreenShot](https://thumbs.gfycat.com/WeakActualBluebreastedkookaburra-size_restricted.gif)
